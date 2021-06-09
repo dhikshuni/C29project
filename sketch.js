@@ -58,7 +58,7 @@ function setup() {
   blocks9 = new Block(700,95,30,40);
 
   //ball holder with slings
-  ball = Bodies.circle(50,200,20);
+  ball = Bodies.circle(55,200,20);
   World.add(world,ball);
 
   slingShot = new Slingshot(this.ball,{x:100,y:200});
